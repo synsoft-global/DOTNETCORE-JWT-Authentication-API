@@ -1,10 +1,9 @@
-Dot Net Core Api Common Architecture :-
+Three Tier Architecture Dot Net Core Api Project  
 
-This source is cover following types of API 
-1) Sign-In
-2) Sign-Up
-3) Get Users
+Functionality in sample code :-
+1) User Sign-Up
+2) User Sign-In
+3) Get User Details
 
 For more details refer below link
-
 https://documenter.getpostman.com/view/15695494/U16huSo9

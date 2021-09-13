@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreAPI\\NetCoreAPI.csproj": {}
+  },
+  "projects": {
+    "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreAPI\\NetCoreAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreAPI\\NetCoreAPI.csproj",
+        "projectName": "NetCoreAPI",
+        "projectPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreAPI\\NetCoreAPI.csproj",
+        "packagesPath": "C:\\Users\\SEO2\\.nuget\\packages\\",
+        "outputPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SEO2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreBLL\\NetCoreBLL.csproj": {
+                "projectPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreBLL\\NetCoreBLL.csproj"
+              },
+              "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\NetCoreDAL.csproj": {
+                "projectPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\NetCoreDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreBLL\\NetCoreBLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreBLL\\NetCoreBLL.csproj",
+        "projectName": "NetCoreBLL",
+        "projectPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreBLL\\NetCoreBLL.csproj",
+        "packagesPath": "C:\\Users\\SEO2\\.nuget\\packages\\",
+        "outputPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreBLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SEO2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\NetCoreDAL.csproj": {
+                "projectPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\NetCoreDAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\NetCoreDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\NetCoreDAL.csproj",
+        "projectName": "NetCoreDAL",
+        "projectPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\NetCoreDAL.csproj",
+        "packagesPath": "C:\\Users\\SEO2\\.nuget\\packages\\",
+        "outputPath": "E:\\Anuj\\Work 2021 New\\Self Practice\\ADOWithJWTAPI\\NetCoreDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SEO2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
